@@ -1,0 +1,57 @@
+{
+    "id": "dbb53897-e9e0-4d81-96ba-cd46929f67b8",
+    "name": "Mosswart Camp",
+    "chain_id": "",
+    "rewards": [],
+    "prerequisites": [],
+    "level_range": "",
+    "timer": "x",
+    "repeatable": false,
+    "contract_id": "",
+    "steps": [
+        {
+            "target": "Warden",
+            "action": "speak",
+            "coordinates": "",
+            "quest_stamp": "",
+            "dungeon_id": "",
+            "required": true
+        },
+        {
+            "target": "Mosswart Mucker",
+            "action": "defeat",
+            "coordinates": "27.5S, 71.0E",
+            "quest_stamp": "",
+            "trophy": "Ice Tachi",
+            "required": true,
+            "routes": [
+                {
+                    "waypoints": [
+                        "Warden NPC",
+                        "Mosswart Camp Portal",
+                        "Mosswart Camp"
+                    ]
+                }
+            ]
+        },
+        {
+            "target": "Warden",
+            "action": "give",
+            "item": "Ice Tachi",
+            "coordinates": "",
+            "dungeon_id": "",
+            "required": true,
+            "routes": [
+                {
+                    "waypoints": [
+                        "Mosswart Camp",
+                        "Facility Hub Recall",
+                        "Waden NPC"
+                    ]
+                }
+            ]
+        }
+    ],
+    "created_at": "",
+    "updated_at": ""
+}

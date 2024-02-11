@@ -1,0 +1,11 @@
+{
+  "name": "ac-quests",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
